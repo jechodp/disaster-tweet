@@ -8,16 +8,16 @@ The objectives will try the Models to predicts which Tweets determine or contain
 Source: https://www.kaggle.com/c/nlp-getting-started/data
 
 Columns :
-id - a unique identifier for each tweet
-text - the text of the tweet
-location - the location the tweet was sent from (may be blank)
-keyword - a particular keyword from the tweet (may be blank)
-target - in train.csv only, this denotes whether a tweet is about a real disaster (1) or not (0)
+1. id - a unique identifier for each tweet
+2. text - the text of the tweet
+3. location - the location the tweet was sent from (may be blank)
+4. keyword - a particular keyword from the tweet (may be blank)
+5. target - in train.csv only, this denotes whether a tweet is about a real disaster (1) or not (0)
 
 Files:
-train.csv - the training set
-test.csv - the test set
-sample_submission.csv - a sample submission file in the correct format
+1. train.csv - the training set
+2. test.csv - the test set
+3. sample_submission.csv - a sample submission file in the correct format
 
 # Sequence Process
 1. Splitting Training and Test set into a 80:20 split
